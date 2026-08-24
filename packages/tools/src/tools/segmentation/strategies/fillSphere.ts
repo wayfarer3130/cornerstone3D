@@ -12,7 +12,6 @@ import {
 } from './fillCircle';
 import { createSphereObliqueIntegerFill } from './utils/obliqueIntegerFill';
 const { transformWorldToIndex, getNormalizedAspectRatio } = csUtils;
-import { getSphereBoundsInfoFromViewport } from '../../../utilities/getSphereBoundsInfo';
 import type { CanvasCoordinates } from '../../../types';
 
 const sphereComposition = {
