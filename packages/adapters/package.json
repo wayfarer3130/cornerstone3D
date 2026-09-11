@@ -100,10 +100,12 @@
   },
   "devDependencies": {
     "@cornerstonejs/core": "5.6.8",
+    "@cornerstonejs/metadata": "5.6.8",
     "@cornerstonejs/tools": "5.6.8"
   },
   "peerDependencies": {
     "@cornerstonejs/core": "5.6.8",
+    "@cornerstonejs/metadata": "5.6.8",
     "@cornerstonejs/tools": "5.6.8"
   }
 }

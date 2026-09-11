@@ -484,7 +484,8 @@ function generateSegmentation(
         MetadataModules.PREDECESSOR_SEQUENCE,
         predecessorImageId
       );
-      Object.assign(segmentationResult, predecessor);
+      // Onto the dataset, which is what gets stored, not onto its wrapper.
+      Object.assign(segmentationResult.dataset, predecessor);
     }
 
     return segmentationResult;
@@ -520,7 +521,8 @@ function generateSegmentation(
       MetadataModules.PREDECESSOR_SEQUENCE,
       predecessorImageId
     );
-    Object.assign(segmentationResult, predecessor);
+    // Onto the dataset, for the same reason as the bitmap branch above.
+    Object.assign(segmentationResult.dataset, predecessor);
   }
   return segmentationResult;
 }
