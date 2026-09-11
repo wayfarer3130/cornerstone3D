@@ -11,6 +11,7 @@ export const {
   workerLog,
   coreLog,
   toolsLog,
+  adaptersLog,
   loaderLog,
   aiLog,
   examplesLog,

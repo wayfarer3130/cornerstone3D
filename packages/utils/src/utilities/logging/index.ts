@@ -23,6 +23,7 @@ export const cs3dLog = getRootLogger('cs3d');
  */
 export const metadataLog = cs3dLog.getLogger('metadata') as Logger;
 export const coreLog = cs3dLog.getLogger('core') as Logger;
+export const adaptersLog = cs3dLog.getLogger('adapters') as Logger;
 export const toolsLog = cs3dLog.getLogger('tools') as Logger;
 export const loaderLog = cs3dLog.getLogger('dicomImageLoader') as Logger;
 export const aiLog = cs3dLog.getLogger('ai') as Logger;
